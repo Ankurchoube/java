@@ -94,24 +94,24 @@
 // }
 
 // ============================
- const fullname="madam";
- let reversename ="";
+//  const fullname="madam";
+//  let reversename ="";
 
-for(let i = fullname.length - 1; i >=0  ;i=i-1){
+// for(let i = fullname.length - 1; i >=0  ;i=i-1){
 
-    reversename = reversename + fullname[i];
+//     reversename = reversename + fullname[i];
   
-    console.log(reversename);
+//     console.log(reversename);
 
-}
-if(fullname===reversename)
-{
-    console.log("Pallindrome hai");
-}
-else
-{
-    console.log("Pallindrome nhi hai");
-}
+// }
+// if(fullname === reversename)
+// {
+//     console.log("Pallindrome hai");
+// }
+// else
+// {
+//     console.log("Pallindrome nhi hai");
+// }
 
 // ===============================
 // for (let i = 1; i <= 10; i ++){
@@ -165,3 +165,26 @@ else
 // {
 //     console.log(i);
 // }
+
+// ====factorial==
+
+// const num=6;
+// let fact=1;
+// for(let i=1; i<=num;i++)
+// {
+//     fact=fact*i;
+// }
+// console.log(fact);
+
+// =====wap to skip every 3rd number in 1 to 30==
+const num=30;
+for(let i=1;i<=num;i++)
+    {
+        if(i % 3 == 0){
+            console.log();
+
+        }
+        else{
+            console.log(i);
+        }
+    } 
