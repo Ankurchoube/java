@@ -94,15 +94,24 @@
 // }
 
 // ============================
-//  const fullname="madam";
-//  let pallindrome =0;
+ const fullname="madam";
+ let reversename ="";
 
-// for(let i = fullname.length - 1; i >=0  ;i--){
-//     pallindrome[i]=pallindrome + fullname[i];
-//     // if(fullname[i]===pallindrome[])
-// }
-//     console.log(fullname[i]);
+for(let i = fullname.length - 1; i >=0  ;i=i-1){
 
+    reversename = reversename + fullname[i];
+  
+    console.log(reversename);
+
+}
+if(fullname===reversename)
+{
+    console.log("Pallindrome hai");
+}
+else
+{
+    console.log("Pallindrome nhi hai");
+}
 
 // ===============================
 // for (let i = 1; i <= 10; i ++){
@@ -150,7 +159,9 @@
     
 // }console.log(vowelCount);
 
-for(let i=10;i>=1;i--)
-{
-    console.log(i);
-}
+//=======reverce number====
+
+// for(let i=10;i>=1;i--)
+// {
+//     console.log(i);
+// }
