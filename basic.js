@@ -177,14 +177,44 @@
 // console.log(fact);
 
 // =====wap to skip every 3rd number in 1 to 30==
-const num=30;
-for(let i=1;i<=num;i++)
-    {
-        if(i % 3 == 0){
-            console.log();
+// const num=30;
+// for(let i=1;i<=num;i++)
+//     {
+//         if(i % 3 == 0){
+//             console.log();
 
-        }
-        else{
-            console.log(i);
-        }
-    } 
+//         }
+//         else{
+//             console.log(i);
+//         }
+//     } 
+
+//============sum of odd numbers =
+
+// let sum=0;
+// for(let i=1;i<=100;i++)
+// {
+//     if(i%2!==0)
+//     {
+//         sum=sum+i;
+
+//     }
+// } console.log(sum);
+
+// ===fabonacci===
+
+const num=10;
+let num3=0;
+let num1=0;
+let num2=1;
+for(let i=1;i<=num;i++)
+{
+    
+    num3=num1+num2;
+    num1=num2;
+    num2=num3;
+     
+    console.log(num3);      
+}
+
+
