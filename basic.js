@@ -203,18 +203,77 @@
 
 // ===fabonacci===
 
-const num=10;
-let num3=0;
-let num1=0;
-let num2=1;
-for(let i=1;i<=num;i++)
-{
+// const num=10;
+// let num3=0;
+// let num1=0;
+// let num2=1;
+// for(let i=1;i<=num;i++)
+// {
     
-    num3=num1+num2;
-    num1=num2;
-    num2=num3;
+//     num3=num1+num2;
+//     num1=num2;
+//     num2=num3;
      
-    console.log(num3);      
+//     console.log(num3);      
+// }
+
+//===========check prime number===========================
+
+// const num =13;
+// let isDivided=false;
+
+// for(let i=2;i<=num-1;i++)
+// {
+//     if(num % i == 0)
+//     {
+//         isDivided=true; 
+//         break;
+//    }
+// }
+   
+//   if(isDivided==false) {
+//     console.log("prime");
+//    }
+//     else{
+//         console.log("not prime");
+//     }
+
+
+// ================
+
+// const num=8932;
+// for(let i=0;i<=4;i++)
+// {
+   
+//     console.log(Math.floor(num/10));
+//     console.log(Math.floor(num/100));
+//     console.log(Math.floor(num/1000));
+//     console.log(Math.floor(num/10000));
+// }
+
+// =============function===========================
+
+// =========add two number=========
+
+// function add(a,b){
+//     const sum=(a+b);
+//     console.log(sum);
+// }
+// add(5,8)
+
+// ===========creat a function that print table=======
+
+// function printtable(num){
+//     for(let i=1;i<=10;i++){
+//         console.log(num * i);
+//     }
+// }
+// printtable(5);
+
+// +=======area of rectengale=======
+
+function rectengale(l,w){
+    const area=l*w;
+    console.log(area);
 }
-
-
+rectengale(5,6);
