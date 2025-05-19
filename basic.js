@@ -272,8 +272,33 @@
 
 // +=======area of rectengale=======
 
-function rectengale(l,w){
-    const area=l*w;
-    console.log(area);
-}
-rectengale(5,6);
+// function rectengale(l,w){
+//     const area=l*w;
+//     console.log(area);
+// }
+// rectengale(5,6);
+
+
+// =========find percentage ========
+
+// function findpercentage(opte,tota){
+//   const percentage = ((opte/tota)*100);
+//     console.log(percentage +"%");
+// }
+// findpercentage(377,500);
+
+//1 ifi fuction
+ 
+// (function(opte,tota){
+//    const percentage = ((opte/tota)*100);
+//     console.log(percentage +"%");
+// }
+// )(377,500);
+
+// 2 arrow function
+const findpercentage = (opte,tota) =>{
+  const percentage = ((opte/tota)*100);
+     console.log(percentage +"%");
+ }
+ findpercentage(377,500);
+
